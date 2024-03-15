@@ -4,14 +4,15 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build:scripts": "webpack --config webpack.config.js",
-    "watch:scripts": "webpack --config webpack.config.js --watch"
+    "build:scripts": "webpack --mode production",
+    "watch:scripts": "webpack --mode development --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.47.0",
+    "webpack-cli": "^3.3.12"
   }
 }
