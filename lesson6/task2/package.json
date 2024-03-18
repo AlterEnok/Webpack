@@ -1,7 +1,6 @@
 {
   "name": "task2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack  --mode production",
@@ -20,5 +19,6 @@
   },
   "dependencies": {
     "core-js": "^3.36.0"
-  }
+  },
+  "description": ""
 }
